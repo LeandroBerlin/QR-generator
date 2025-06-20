@@ -593,6 +593,21 @@ END:VCARD`
             </Card>
           )}
         </div>
+
+        {/* Footer */}
+        <div className="text-center mt-12 pt-8 border-t border-slate-700/30">
+          <p className="text-slate-400 text-sm">
+            Developed with <span className="text-red-400">♥</span> in Berlin by{" "}
+            <a
+              href="https://leandro.berlin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-400 hover:text-cyan-300 transition-colors duration-200 underline decoration-cyan-400/30 hover:decoration-cyan-300"
+            >
+              Leandro
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   )
